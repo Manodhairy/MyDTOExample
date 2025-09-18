@@ -24,7 +24,7 @@ public class HomeCntrl {
 	
 	@PostMapping("/hii")
 	public String demo() {
-		return "hello";
+		return "hello world";
 	}
 	
 	@PostMapping("/addData")
@@ -48,4 +48,6 @@ public class HomeCntrl {
 		return red;
 				
 	}
+
+	
 }
